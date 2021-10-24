@@ -1,0 +1,6 @@
+[submodule "reports-ws"]
+	path = reports-ws
+	url = https://github.com/RaquelCSC/reports-ws.git
+[submodule "reports-web"]
+	path = reports-web
+	url = https://github.com/RaquelCSC/reports-web.git
