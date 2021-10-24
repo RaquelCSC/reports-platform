@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./reports-web/build:/usr/share/nginx/html
+    environment:
+    - PRODUCTION=1
